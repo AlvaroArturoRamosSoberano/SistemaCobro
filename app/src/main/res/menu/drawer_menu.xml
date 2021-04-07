@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Principal">
+            <menu>
+                <item
+                    android:id="@+id/home"
+                    android:icon="@drawable/ic_home"
+                    android:title="Inicio"/>
+
+                <item
+                    android:id="@+id/personas"
+                    android:icon="@drawable/ic_group"
+                    android:title="Clientes"/>
+                <item
+                    android:id="@+id/perfil"
+                    android:icon="@drawable/ic_perfil2"
+                    android:title="Mi perfil"/>
+            </menu>
+    </item>
+    <item android:title="Secundario">
+        <menu>
+            <item
+                android:id="@+id/home2"
+                android:icon="@drawable/ic_home"
+                android:title="home"/>
+
+            <item
+                android:id="@+id/personas2"
+                android:icon="@drawable/ic_group"
+                android:title="personas"/>
+        </menu>
+    </item>
+</menu>
